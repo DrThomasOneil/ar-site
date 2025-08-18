@@ -1,0 +1,21 @@
+---
+title: "Contact Us"
+site: workflowr::wflow_site
+output:
+  workflowr::wflow_html:
+    toc: false
+editor_options:
+  chunk_output_type: console
+---
+ 
+<div class="main-content">
+<div class="hero-section">
+<h1>Contact Us</h1>
+</div>
+
+<div class="about-section">
+<span style = "text-align: center"><p>[**Email Us** `r "\U2709\UFE0F"`](mailto:david.maximous@nhs.net;thomas.oneil@sydney.edu.au;marteka@benevolenthealth.co.uk)</p></span>
+<span style = "text-align: center">for more information.</span>
+
+</div>
+ 
