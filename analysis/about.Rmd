@@ -1,5 +1,6 @@
 ---
-title: "About"
+title: "About Qure AR"
+site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
     toc: false
@@ -7,4 +8,87 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+<div class="main-content">
+<div class="hero-section">
+<h1>Coming Soon</h1>
+<p>We're working on something amazing. Check back soon!</p>
+</div>
+
+<div class="text-center mt-5">
+<a href="index.html" class="cta-button">Back to Home</a>
+</div>
+</div>
+
+<!-- 
+<div class="main-content">
+  <div class="hero-section">
+    <h1>About Qure AR</h1>
+    <p>Pioneering the future of augmented reality technology</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Our Story</h2>
+      <p>Qure AR was founded with a simple yet ambitious vision: to make augmented reality technology accessible, useful, and transformative for everyone. Born from the intersection of cutting-edge computer vision research and practical user experience design, we're building the foundation for the next generation of AR applications.</p>
+      
+      <p>Our journey began when our founders recognized that while AR technology was advancing rapidly, the gap between technological capability and practical usability was growing wider. We set out to bridge this gap by creating AR solutions that don't just showcase technology for its own sake, but solve real problems and enhance human capabilities.</p>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <h3>Founded</h3>
+        <p>2024</p>
+        <h3>Mission</h3>
+        <p>Democratizing AR technology</p>
+        <h3>Focus</h3>
+        <p>Practical AR solutions</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h2>Our Technology</h2>
+    <p>At the core of Qure AR's technology stack is our proprietary computer vision engine, designed from the ground up for real-world AR applications. We've developed advanced algorithms that can understand and interpret complex environments in real-time, enabling seamless AR experiences across diverse use cases.</p>
+    
+    <div class="tech-stack">
+      <span class="tech-tag">Computer Vision</span>
+      <span class="tech-tag">Machine Learning</span>
+      <span class="tech-tag">AR/VR Development</span>
+      <span class="tech-tag">3D Graphics</span>
+      <span class="tech-tag">Mobile Development</span>
+      <span class="tech-tag">Cloud Computing</span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2>What We Do</h2>
+      <ul>
+        <li><strong>Custom AR Applications:</strong> We develop tailored AR solutions for businesses across industries, from retail and manufacturing to healthcare and education.</li>
+        <li><strong>AR Platform Development:</strong> Our modular AR platform enables rapid development and deployment of AR experiences.</li>
+        <li><strong>Consulting Services:</strong> We help organizations understand how AR can transform their operations and customer experiences.</li>
+        <li><strong>Research & Development:</strong> Continuous innovation in computer vision and AR interaction paradigms.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h2>Our Impact</h2>
+      <p>Since our inception, Qure AR has been at the forefront of practical AR applications. We've helped organizations:</p>
+      <ul>
+        <li>Reduce training costs through immersive AR learning experiences</li>
+        <li>Improve customer engagement with interactive AR product demonstrations</li>
+        <li>Enhance operational efficiency through AR-assisted workflows</li>
+        <li>Create new revenue streams with AR-powered products and services</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h2>Looking Forward</h2>
+    <p>As we look to the future, Qure AR is committed to staying at the cutting edge of AR technology while maintaining our focus on practical, user-centered solutions. We're excited about the possibilities that lie ahead and invite you to join us in shaping the future of augmented reality.</p>
+    
+    <div class="text-center mt-4">
+      <a href="team.html" class="cta-button">Meet Our Team</a>
+      <a href="index.html" class="cta-button" style="margin-left: 1rem; background: transparent; border: 2px solid var(--primary-color); color: var(--primary-color);">Back to Home</a>
+    </div>
+  </div>
+</div>
+-->

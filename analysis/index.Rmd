@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -8,4 +8,60 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+<div class="hero-section">
+<div class="main-content"> 
+<h1>Welcome to the Future of AR</h1>
+<p>Qure AR is pioneering the next generation of augmented reality experiences, making immersive technology accessible to everyone.</p>
+<a href="about.html" class="cta-button">Learn More</a>
+</div>
+</div>
+
+<div class="main-content">
+<div class="row">
+<div class="col-md-4">
+<div class="feature-card">
+<div class="feature-icon">🚀</div>
+<h3>Innovative Technology</h3>
+<p>Cutting-edge AR solutions that push the boundaries of what's possible in mixed reality experiences.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-card">
+<div class="feature-icon">💡</div>
+<h3>Creative Solutions</h3>
+<p>Custom AR applications designed to solve real-world problems and enhance user experiences across industries.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-card">
+<div class="feature-icon">🌍</div>
+<h3>Global Impact</h3>
+<p>Transforming how people interact with technology, from education and healthcare to entertainment and business.</p>
+</div>
+</div>
+</div>
+
+<div class="row mt-5">
+<div class="col-md-6">
+<h2>Why Choose Qure AR?</h2>
+<p>Our team combines deep expertise in computer vision, machine learning, and user experience design to create AR solutions that are not just technologically advanced, but genuinely useful and engaging.</p>
+<ul>
+<li>Advanced computer vision algorithms</li>
+<li>Seamless user experience design</li>
+<li>Cross-platform compatibility</li>
+<li>Scalable enterprise solutions</li>
+</ul>
+</div>
+<div class="col-md-6">
+<h2>Our Mission</h2>
+<p>To democratize augmented reality technology and make it an integral part of everyday life. We believe AR has the potential to enhance human capabilities and create new ways of understanding and interacting with our world.</p>
+<a href="team.html" class="cta-button">Meet Our Team</a>
+</div>
+</div>
+
+<div class="about-section text-center">
+<h2>Ready to Experience the Future?</h2>
+<p>Join us in shaping the next chapter of augmented reality technology.</p>
+<a href="about.html" class="cta-button">Get Started</a>
+</div>
+</div>
