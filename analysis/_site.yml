@@ -8,7 +8,7 @@ navbar:
   - text: About
     href: about.html
   - text: The Team
-    href: team.html
+    href: team.html 
 #  - text: Contact Us
 #    href: contact.html
 output:
