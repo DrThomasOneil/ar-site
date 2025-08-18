@@ -7,7 +7,7 @@ output:
 editor_options:
   chunk_output_type: console
 ---
-
+ 
 <div class="main-content">
 <div class="hero-section">
 <h1>Coming Soon</h1>
@@ -19,7 +19,7 @@ editor_options:
 </div>
 </div>
 
-<!-- 
+<!--  
 <div class="main-content">
   <div class="hero-section">
     <h1>About Qure AR</h1>
