@@ -10,7 +10,7 @@ editor_options:
 
 <div class="hero-section">
 <div class="main-content"> 
-<h1>Welcome to the Future of AR</h1>
+<h1>Welcome to the Future of MedED</h1>
 <p>Qure AR is pioneering the next generation of augmented reality experiences, making immersive education accessible to everyone.</p>
 <a href="about.html" class="cta-button">Learn More</a>
 </div>
