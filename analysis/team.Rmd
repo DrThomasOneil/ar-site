@@ -1,0 +1,95 @@
+---
+title: "The Team"
+site: workflowr::wflow_site
+output:
+  workflowr::wflow_html:
+    toc: false
+editor_options:
+  chunk_output_type: console 
+--- 
+ 
+<div class="main-content">
+<div class="hero-section">
+<h1>Meet Our Team</h1>
+<p>The brilliant minds behind Qure AR's innovative technology</p>
+</div>
+
+<div class="row">
+<div class="col-md-6 col-lg-4">
+<div class="team-member">
+<img src="assets/headshot/DM1.jpg" alt="CEO & Co-Founder">
+<h4>Dr. David Maximous, M.D.</h4>
+<p><strong>CEO & Co-Founder</strong></p>
+<p>**Visionary founder** leading the creation of Qure AR’s mobile-first, AR-enhanced clinical training platform. Practising doctor with deep clinical expertise and first-hand understanding of medical training challenges.</p>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<div class="team-member">
+<img src="assets/headshot/TO.jpg" alt="CTO & Co-Founder">
+<h4>Dr. Thomas O'Neil, Ph.D</h4>
+<p><strong>CTO & Co-Founder</strong></p>
+<p>Chief Technology Officer driving Qure AR’s end-to-end technology strategy.</p>
+</div>
+</div>
+ 
+<div class="col-md-6 col-lg-4">
+<div class="team-member">
+<img src="assets/headshot/MS1.jpg" alt="Head of Product">
+<h4>Marteka Swaby</h4>
+<p><strong>Advisor & Consultant</strong></p>
+<p>Seasoned healthcare transformation leader with over a decade’s experience delivering large-scale change across NHS, Integrated Care Systems, and local authority settings.</p>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<div class="team-member">
+<img src="assets/headshot/TBA.jpg" alt="Lead Engineer">
+<h4>TBC</h4>
+<p><strong>Lead Engineer</strong></p>
+<p>TBC</p>
+</div>
+</div>
+
+</div>
+
+<!--
+<div class="about-section">
+<h2>Join Our Team</h2>
+<p>We're always looking for talented individuals who are passionate about pushing the boundaries of augmented reality technology. If you're excited about building the future of AR, we'd love to hear from you.</p>
+
+<div class="row">
+<div class="col-md-6">
+<h3>Open Positions</h3>
+<ul>
+<li>Senior Computer Vision Engineer</li>
+<li>AR/VR Developer</li>
+<li>Machine Learning Engineer</li>
+<li>Product Designer</li>
+<li>DevOps Engineer</li>
+</ul>
+</div>
+<div class="col-md-6">
+<h3>What We Offer</h3>
+<ul>
+<li>Competitive salary and equity</li>
+<li>Flexible work arrangements</li>
+<li>Latest AR/VR hardware</li>
+<li>Professional development</li>
+<li>Collaborative culture</li>
+</ul>
+</div>
+</div>
+
+<div class="text-center mt-4">
+<a href="mailto:careers@qure-ar.com" class="cta-button">Get in Touch</a>
+</div>
+</div>
+
+<div class="text-center mt-5">
+<a href="about.html" class="cta-button" style="background: transparent; border: 2px solid var(--primary-color); color: var(--primary-color);">About Us</a>
+<a href="index.html" class="cta-button" style="margin-left: 1rem;">Back to Home</a>
+</div>
+</div>
+
+-->
