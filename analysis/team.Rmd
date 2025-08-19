@@ -19,7 +19,7 @@ editor_options:
 <div class="team-member">
 <img src="assets/headshot/DM1.jpg" alt="CEO & Co-Founder">
 <h4>Dr. David Maximous, M.D.</h4>
-<p><strong>CEO & Co-Founder</strong></p>
+<p><strong>CEO & Founder</strong></p>
 <p>**Visionary founder** leading the creation of Qure AR’s mobile-first, AR-enhanced clinical training platform. Practising doctor with deep clinical expertise and first-hand understanding of medical training challenges.</p>
 </div>
 </div>
