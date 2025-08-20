@@ -8,9 +8,9 @@ navbar:
   - text: About
     href: about.html
   - text: The Team
-    href: team.html 
-#  - text: Contact Us
-#    href: contact.html
+    href: team.html
+  - text: Contact Us
+    href: contact.html
 output:
   workflowr::wflow_html:
     toc: yes
@@ -18,3 +18,5 @@ output:
     theme: cosmo
     highlight: textmate
     css: custom.css
+    includes:
+      after_body: footer.html
