@@ -9,8 +9,6 @@ navbar:
     href: about.html
   - text: The Team
     href: team.html
-  - text: Contact Us
-    href: contact.html
 output:
   workflowr::wflow_html:
     toc: yes
