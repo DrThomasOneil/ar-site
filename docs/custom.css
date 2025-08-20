@@ -158,6 +158,27 @@ body {
   padding: 0 1rem;
 }
 
+.custom-footer {
+  background: var(--dark-color);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+  border-radius: 25px 25px 0 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
 .btn-workflowr-report {
   opacity: 0;
   font-size: 0em;
@@ -188,5 +209,10 @@ body {
   .hero-section {
     border-radius: 20px;
     margin: 1rem 0.5rem 2rem 0.5rem;
+  }
+  
+  .custom-footer {
+    border-radius: 20px 20px 0 0;
+    margin-top: 2rem;
   }
 }
