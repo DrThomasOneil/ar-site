@@ -52,7 +52,7 @@ editor_options:
 </div>
 
 </div>
-
+  
 <!--
 <div class="about-section">
 <h2>Join Our Team</h2>
