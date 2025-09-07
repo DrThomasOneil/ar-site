@@ -1,5 +1,5 @@
 ---
-title: "About Qure AR"
+title: "About QuRe AR"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:

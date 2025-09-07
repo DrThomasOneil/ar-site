@@ -1,7 +1,7 @@
-name: "Qure AR"
+name: "QuRe AR"
 output_dir: ../docs
 navbar:
-  title: "Qure AR"
+  title: "QuRe AR"
   left:
   - text: Home
     href: index.html

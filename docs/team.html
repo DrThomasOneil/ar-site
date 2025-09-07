@@ -249,7 +249,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Qure AR</a>
+      <a class="navbar-brand" href="index.html">QuRe AR</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -282,7 +282,7 @@ $(document).ready(function () {
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-ok text-success"
+workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger"
 aria-hidden="true"></span>
 </button>
 </p>
@@ -293,8 +293,8 @@ aria-hidden="true"></span>
 </li>
 <li>
 <a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
-</a>
+class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -303,13 +303,13 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2025-09-04
+<strong>Last updated:</strong> 2025-09-08
 </p>
 <p>
 <strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1
 <span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 0
+aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>qure-ar/</code> <span
@@ -332,33 +332,36 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges">
+<span class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted
+changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate"
+<div id="strongRMarkdownfilestronguncommittedchanges"
 class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git
-repository, you know the exact version of the code that produced these
-results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of
+the R Markdown file created these results, you’ll want to first commit
+it to the Git repo. If you’re still working on the analysis, you can
+ignore this warning. When you’re finished, you can run
+<code>wflow_publish</code> to commit the R Markdown file and build the
+HTML.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomDrThomasOneilarsitetreefa0af116d78c64e6fb0d6dca326c5360b04f6acftargetblankfa0af11a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomDrThomasOneilarsitetree40be4b6f2df7f413abe422c73b5bbe39750a14a8targetblank40be4b6a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/DrThomasOneil/ar-site/tree/fa0af116d78c64e6fb0d6dca326c5360b04f6acf" target="_blank">fa0af11</a>
+<a href="https://github.com/DrThomasOneil/ar-site/tree/40be4b6f2df7f413abe422c73b5bbe39750a14a8" target="_blank">40be4b6</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomDrThomasOneilarsitetreefa0af116d78c64e6fb0d6dca326c5360b04f6acftargetblankfa0af11a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomDrThomasOneilarsitetree40be4b6f2df7f413abe422c73b5bbe39750a14a8targetblank40be4b6a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -368,7 +371,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/DrThomasOneil/ar-site/tree/fa0af116d78c64e6fb0d6dca326c5360b04f6acf" target="_blank">fa0af11</a>.
+<a href="https://github.com/DrThomasOneil/ar-site/tree/40be4b6f2df7f413abe422c73b5bbe39750a14a8" target="_blank">40be4b6</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -387,6 +390,12 @@ Ignored files:
     Ignored:    .Rhistory
     Ignored:    analysis/footer.html
     Ignored:    data/
+
+Unstaged changes:
+    Modified:   analysis/_site.yml
+    Modified:   analysis/about.Rmd
+    Modified:   analysis/index.Rmd
+    Modified:   analysis/team.Rmd
 
 </code></pre>
 <p>
@@ -431,6 +440,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/DrThomasOneil/ar-site/52938b9435523b95d0c879a56d491ac4ce76730c/docs/team.html" target="_blank">52938b9</a>
+</td>
+<td>
+DrThomasOneil
+</td>
+<td>
+2025-09-04
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -648,7 +674,7 @@ wflow_publish("analysis/team.Rmd")
 Meet Our Team
 </h1>
 <p>
-The brilliant minds behind Qure AR’s innovative technology
+The brilliant minds behind QuRe AR’s innovative technology
 </p>
 </div>
 <div class="row">
@@ -662,7 +688,7 @@ Dr. David Maximous, MBChB (Hons)
 <strong>CEO &amp; Founder</strong>
 </p>
 <p>
-<strong>Visionary founder</strong> leading the creation of Qure AR’s
+<strong>Visionary founder</strong> leading the creation of QuRe AR’s
 mobile-first, AR-enhanced clinical training platform. Practising doctor
 with deep clinical expertise and first-hand understanding of medical
 training challenges.
@@ -679,7 +705,7 @@ Dr. Thomas O’Neil, Ph.D
 <strong>CTO &amp; Co-Founder</strong>
 </p>
 <p>
-Chief Technology Officer driving Qure AR’s end-to-end technology
+Chief Technology Officer driving QuRe AR’s end-to-end technology
 strategy.
 </p>
 </div>
@@ -758,7 +784,7 @@ TBC
 
 <div class="custom-footer">
   <div class="footer-content">
-    <p>&copy; Qure AR Ltd 2025. All rights reserved.</p>
+    <p>&copy; QuRe AR Ltd 2025. All rights reserved.</p>
   </div>
 </div>
  
